@@ -1,0 +1,47 @@
+header {
+    overflow: auto;
+}
+
+ul {
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+li {
+    display: inline-block;
+}
+
+#head {
+    float: right;
+    z-index: 10;
+    padding: 20px;
+}
+
+#country {
+    padding: 20px;
+}
+
+#end-left {
+    float: left;
+    padding: 20px;
+}
+
+#end-right {
+    float: right;
+    padding: 20px;
+}
+
+.center {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+top: 50%;
+}
+
+.fotbar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
